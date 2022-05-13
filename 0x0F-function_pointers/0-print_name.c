@@ -1,12 +1,15 @@
-#ifndef FILE_F_POINTRS
-#define FILE_F_POINTRS
+#include "function_pointers.h"
 
-#include <stdlib.h>
+/**
+ * print_name - prints a name
+ * @name: name's main
+ * @f: void function
+ */
 
-void print_name(char *name, void (*f)(char *));
-
-void array_iterator(int *array, size_t size, void (*action)(int));
-
-int int_index(int *array, int size, int (*cmp)(int));
-
-#endif
+void print_name(char *name, void (*f)(char *))
+{
+	if (name && f)
+	{
+		f(name);
+	}
+}
