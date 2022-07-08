@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+Functions
+=======
 # C - More singly linked lists
 
 Project done during Full Stack Software Engineering studies at **_ALX Africa SE_**. In this project, I continued in practicing, building and using singly linked lists in `C` while learning when and why to use `linked lists` versus `arrays`.
@@ -106,3 +109,4 @@ _Filename_ | _Description_ | _Prototype_
     * [103-find_loop.c](./103-find_loop.c): `C` function that finds the loop contained in a `listint_t` linked list using a maximum of two variables.
         - If no loop is found - returns `NULL`.
         - Otherwise - returns the address of the `node` where the loop starts.
+>>>>>>> 405b0980bbf8064112687d180536c640e660cbca
